@@ -1,0 +1,3 @@
+rails db:create db:migrate  RAILS_ENV=production
+db:migrate RAILS_ENV=production
+assets:precompile RAILS_ENV=production
